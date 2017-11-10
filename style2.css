@@ -1,0 +1,1017 @@
+body{
+  background-color: #8CD6AD;
+  font: 18pt 'Myriad Pro', sans-serif;
+  color: #333366;
+  margin: 0;
+}
+
+p{
+  margin: 13px 0;
+}
+
+#wrapper {
+  max-width: 100%;
+  margin: auto;
+}
+header{
+  
+}
+
+
+section {
+  margin-left: 238px;
+  margin-right: -238px;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+/* ------------------------------------------- 1 блок(меню)---------------------------------------------- */
+
+
+#bg1{
+  width: 75%;
+  margin-left: 238px;
+}
+
+#bg1 img{
+  transform: scale(1.25);
+  position: absolute;
+  left: 350px;
+  top: 10px;
+}
+
+.menu {
+  background: #474747;
+  position: relative;
+  overflow: hidden;
+  height: 72px;
+  border-radius: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 75%;
+  float: left;
+  font: 12px Arial, Helvetica, sans-serif;
+  height: 40px;
+}
+
+.menu ul li {
+  position: relative;
+  left: -75%;
+  float: left;
+  height: 40px;
+}
+
+.menu ul li a {
+  color: #E7E7E7;
+  display: block;
+  text-decoration: none;
+  padding: 11px 29px;
+  line-height: 40px;
+  border-top: 10px solid #FFAE00;
+}
+
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+
+#a1{ border-color: #FFAE00;  } #a2{ border-color: #FC7100; padding: 11px 6px; } #a3{ border-color: #E51C5E; } #a4{ border-color: #AE0F8D; padding: 11px 26px; } #a5{ border-color: #6D0FAE; padding: 11px 13px; } #a6{ border-color: #33227A; padding: 11px 8px; } #a7{ border-color: #0C8FCC; padding: 11px 10px; }
+
+
+#a1:hover{ background-color: #FFAE00; } #a2:hover{ background-color: #FC7100; } #a3:hover{ background-color: #E51C5E; } #a4:hover{ background-color: #AE0F8D; } #a5:hover{ background-color: #6D0FAE; } #a6:hover{ background-color: #33227A; } #a7:hover{ background-color: #0C8FCC; }
+
+
+
+
+
+
+/* ------------------------------------------- 2 блок---------------------------------------------- */
+
+
+
+
+#bg2{
+  background-color: #000000;
+  width: 75%;
+  margin-left: 238px;
+  margin-right: -238px;
+  padding: 8px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+#i2{
+  transform: scale(1.2);
+  float: right;
+  margin-right: 290px;
+  margin-left: -290px;
+  margin-top: 6px;
+}
+#i3{
+  transform: scale(1.2);
+  float: right;
+  margin-right: 141px;
+  margin-top: 5px;
+}
+
+input[type="text"]{
+  background-color: #000000;
+  border: 2px solid #434A50;
+  color: #85939F;
+  width: 200px;
+  padding: 5px 0 5px 5px;
+  margin-bottom: 2px;
+  margin-left: 350px;
+}
+
+button{
+  color: #85939F;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-left: -45px;
+}
+
+
+
+
+/* ------------------------------------------- 3 блок---------------------------------------------- */
+
+
+
+
+#bg3{
+  background-color: #8E8E8E;
+  background: url(images/bulb.jpg) no-repeat;
+  background-size: cover;
+  width: 75%;
+  padding: 278px 0;
+  text-align: center;
+  margin-top: 0px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+#bg3 a{
+ text-decoration: none;
+}
+
+#h11{
+  color: #02BAAB;
+  font: 40pt 'Myriad Pro', sans-serif;
+  margin-top: -25px; 
+}
+
+#h12{
+  color: #ffffff;
+  font: 40pt 'Myriad Pro', sans-serif;
+  margin-top: -40px;
+}
+
+
+.buttons{
+  height: 40px;
+  width: 140px;
+  box-sizing: border-box;
+  text-align: center;
+  font: 8pt 'Myriad Pro', sans-serif;
+  background-color: ;
+  color: #02BAAB;
+  border: 2px solid #02BAAB;
+  padding: 13px;
+  position: relative;
+
+}
+
+.see{
+  float: left;
+  top: 20px;
+  left: 39.6%;
+}
+
+.buy{
+  float: left;
+  left: 41.2%;
+  top: 20px
+}
+
+.buttons:hover{
+  background-color: #02BAAB;
+  color: #ffffff;
+}
+
+
+
+
+/* ------------------------------------------- 4 блок---------------------------------------------- */
+
+
+
+
+#bg4{
+  background-color: #ffffff;
+  width: 75%;
+  padding: 80px 0 90px 0;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+#bg4 a{
+ text-decoration: none;
+}
+
+.h3{
+  color: #3B4954;
+  font: 23pt 'Myriad Pro', sans-serif;
+  margin-top: -5px;
+}
+
+.cherta{
+  height: 5px;
+  width: 45px;
+  background-color: #EEEEEE;
+  margin: -1% 0 0 48.7%;
+}
+
+.p{
+  color: #3B4954;
+  font: 12pt 'Myriad Pro', sans-serif;
+  font-weight: 600;
+  margin-top: 45px
+}
+.buy2{
+  margin: 35px 0 0 46.15%;
+  background-color: #ffffff;
+  border: 3px solid #02BAAB;
+  padding: 9px;
+  font: 8pt Roboto, sans-serif;
+  font-weight: 600;
+  width: 120px;
+  height: 35px;
+}
+
+
+
+
+/* ------------------------------------------- 5 блок---------------------------------------------- */
+
+
+
+
+#bg5{
+  background-color: #525252;
+  width: 75%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding-bottom: 105px;
+  
+}
+
+.h32{
+  color: #ffffff;
+  padding-top: 60px;
+}
+
+.ch2{
+  background-color: #ffffff;
+  
+}
+
+.p2{
+  color: #ffffff;
+  top: 175px;
+}
+
+
+.rollover{
+  display: inline-block;
+  width: 290px;
+  height: 290px;
+  margin-top: 15px;
+  background: url(images/img1.jpg);
+  transform: scale(0.9);
+}
+
+.r2{
+  background: url(images/img1.jpg);
+}
+
+.r3{
+  background: url(images/img1.jpg);
+}
+
+.rollover:hover{
+  background: url(images/img3.jpg);
+}
+
+
+
+
+/* ------------------------------------------- 6 блок---------------------------------------------- */
+
+
+
+
+#bg6{
+  background-color: #02BAAB;
+  width: 75%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: -45px;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 25px
+}
+
+#bg6 a{
+ text-decoration: none;
+}
+
+.p3{
+  font-family: 'Myriad Pro';
+  font-size: 1.2em;
+  font-weight: 100;
+  opacity: 0.8;
+  color: #ffffff;
+  padding: 45px 410px 10px 0;
+}
+
+.buy3{
+  background-color: #02BAAB;
+  border: 3px solid #ffffff;
+  padding: 12px;
+  padding-right: 30px;
+  font: 8pt Roboto, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  position: relative;
+  float: left;
+  left: 63%;
+  top: -55px;
+}
+
+#sp1{
+  position: absolute;
+  left: 115px;
+  top: 11px;
+  transform: scale(1.4);
+}
+
+.buy3:hover{
+  background-color: #ffffff;
+  color: #02BAAB;
+  border: 3px solid #ffffff;  
+}
+
+
+
+
+/* ------------------------------------------- 7 блок---------------------------------------------- */
+
+
+
+
+#bg7{
+  background-color: #ffffff;
+  width: 75%;
+  box-sizing: border-box;
+  text-align: center;
+  
+  padding-top: 40px;
+  border-radius: 10px;
+}
+
+.h33{
+  color: #000000;
+  
+}
+
+.ch3{
+  background-color: #EEEEEE;
+  
+}
+
+.list{
+  height: 400px;
+  
+  list-style-image: url(images/star.png);
+  list-style-position: outside;
+  
+}
+
+.list li{
+  padding-left: 0px;
+}
+
+.h4{
+  color: #000000;
+  font: 17pt 'Myriad Pro', sans-serif;
+  font-weight: 600;
+}
+
+.p4{
+  color: #000000;
+  font: 10pt 'Myriad Pro', sans-serif;
+ 
+}
+
+
+
+
+/* ------------------------------------------- 8 блок---------------------------------------------- */
+
+
+
+
+#bg8{
+  background: url(images/whale1.jpg) no-repeat;
+  background-color: #666666;
+  width: 75%;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 10px;
+  margin-top: px;
+}
+
+blockquote {
+  margin-top: 110px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  margin-left: 375px;
+  margin-right: 375px;
+}
+
+blockquote p {
+  color: #fff;
+  font-style: italic;
+  font-size: 23px;
+}
+
+blockquote cite {
+  display: block;
+  font-size: 15px;
+  font-style: normal;
+  color: #02BAAB;
+  text-align: center;
+  padding-bottom: 120px
+}
+
+#quotes{
+  margin-bottom: -70px;
+  margin-top: 50px
+}
+
+
+
+
+/* ------------------------------------------- 9 блок---------------------------------------------- */
+
+
+
+
+#bg9{
+  background-color: #ffffff;
+  width: 75%;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: -24px
+}
+
+.h34{
+  display: inline-block;
+  color: #000000;
+  margin-top: 90px;
+  margin-bottom: 25px
+}
+
+.ch4{
+  background-color: #EEEEEE;
+}
+
+figure {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	margin: 10px;
+	margin-top: 60px;
+	margin-bottom: 100px
+}
+
+figure img {
+}
+
+
+
+
+/* ------------------------------------------- 10 блок---------------------------------------------- */
+
+
+
+
+#bg10{
+  background-color: #02BAAB;
+  width: 75%;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.h35{
+  display: inline-block;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font: 24pt 'Myriad Pro', sans-serif;
+  margin-top: 85px
+}
+
+.ch5{
+  background-color: #ffffff;
+}
+
+#bg10 img{
+  height: 350px;
+  margin-top: 20px;
+  margin-left: -20px;
+  margin-bottom: 65px;
+}
+
+
+
+
+/* ------------------------------------------- 11 блок---------------------------------------------- */
+
+
+
+
+#bg11{
+  background-color: #ffffff;
+  width: 75%;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  padding-bottom: 100px
+}
+
+#bg11 a{
+  text-decoration: none;
+}
+
+.h36{
+  display: inline-block;
+  color: #000000;
+  margin-top: 85px;
+}
+
+.ch6{
+  background-color: #EEEEEE;
+}
+
+
+
+.gray_block{
+  background-color: #CCCCCC;
+  height: 140px;
+  width: 210px;
+  margin: 42px 0 0 243px;
+}
+
+.white_block{
+  background-color: #ffffff;
+  height: 51px;
+  width: 129px;
+  border: 1px solid #EEEEEE;
+  z-index: 1;
+  display: inline-block;
+  margin-top: 114px
+}
+
+.white_block h6{
+  color: #02BAAB;
+  font: 10pt 'Myriad Pro', sans-serif;
+  font-weight: 600;
+  font-size: 0.55em;
+  margin-top: 10px;
+  margin-bottom: -10px
+}
+
+.white_block p{
+  color: #C4C4C4;
+  font: 9pt 'Myriad Pro', sans-serif;
+  font-size: 0.45em;
+}
+
+.frame{
+  height: 190px;
+  width: 208px;
+  border: 1px solid #EEEEEE;
+  margin-left: 243px;
+}
+
+.p5{
+  font: 10pt Roboto, sans-serif;
+  font-size: 0.47em;
+  font-weight: 600;
+  line-height: 2
+}
+
+.buy4{
+  background-color: #ffffff;
+  border: 3px solid #02BAAB;
+  padding: 10px;
+  font: 9pt Roboto, sans-serif;
+  font-weight: 900;
+  z-index: 1;
+  margin-left: 0px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.buy4:hover{
+  background-color: #02BAAB;
+  color: #ffffff;
+}
+
+#img210x280{
+  height: 247px;
+  width: 210px;
+  background-color: ;
+  margin-left: -48px;
+  margin-top: -300px;
+}
+
+.buy4:hover>div{
+  background: url(images/210x280.png);
+}
+
+
+.gb2{
+  margin: -332px 0 332px 487px;
+}
+
+.wb2{
+  
+}
+
+.wb2 h6{
+  
+}
+
+.wb2 p{
+  
+}
+
+.f2{
+  margin: -332px 0 332px 487px;
+}
+
+.p6{
+  font: 10pt Roboto, sans-serif;
+  font-size: 0.47em;
+  font-weight: 600;
+  line-height: 2
+}
+
+.buy5{
+  background-color: #ffffff;
+  border: 3px solid #02BAAB;
+  padding: 10px;
+  font: 9pt Roboto, sans-serif;
+  font-weight: 900;
+  z-index: 1;
+  display: inline-block;
+  margin-top: 5px;
+  
+}
+
+.buy5:hover>div{
+  background: url(images/210x280.png);
+}
+
+
+.gb3{
+  margin: -664px 0 200px 731px;
+}
+
+.wb3{
+ 
+}
+
+.wb3 h6{
+  
+}
+
+.wb3 p{
+  
+}
+
+.f3{
+  margin: -200px 0 100px 731px;
+}
+
+.p7{
+  font: 10pt Roboto, sans-serif;
+  font-size: 0.47em;
+  font-weight: 600;
+  line-height: 2
+}
+
+.buy6{
+  background-color: #ffffff;
+  border: 3px solid #02BAAB;
+  padding: 10px;
+  font: 9pt Roboto, sans-serif;
+  font-weight: 900;
+  z-index: 1;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.buy6:hover>div{
+  background: url(images/210x280.png);
+}
+
+
+.gb4{
+  margin: -432px 0 100px 975px;
+}
+
+.wb4{
+  
+}
+
+.wb4 h6{
+ 
+}
+
+.wb4 p{
+ 
+}
+
+.f4{
+  margin: -100px 0 0 975px;
+}
+
+.p8{
+  font: 10pt Roboto, sans-serif;
+  font-size: 0.47em;
+  font-weight: 600;
+  line-height: 2
+}
+
+.buy7{
+  background-color: #ffffff;
+  border: 3px solid #02BAAB;
+  padding: 10px;
+  font: 9pt Roboto, sans-serif;
+  font-weight: 900;
+  z-index: 1;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.buy7:hover>div{
+  background: url(images/210x280.png);
+}
+
+
+
+
+/* ------------------------------------------- Последний блок ---------------------------------------------- */
+
+
+
+
+footer{
+  background-color: #1F2A32;
+  max-width: 75%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: -49px;
+  margin-left: 238px;
+  margin-right: -238px;
+  padding-bottom: 600px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#twitter{
+  float: left;
+  margin-left: 298px;
+}
+
+#get_in_touch{
+  margin-top: -781px;
+  margin-left: 155px;
+  float: left;
+}
+
+#follow_us{
+  float: left;
+  margin-left: 535px;
+  margin-top: -781px;
+}
+
+#popular_posts{
+  float: left;
+  margin-top: -781px;
+  margin-left: 778px;
+}
+
+.h4{
+  border-top: 15px solid #0C8FCC;
+  display: inline-block;
+  width: 225px;
+  padding-top: 50px;
+  margin-left: -245px;
+  color: #ffffff;
+  font-weight: 100;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 0; 
+}
+
+.git{
+  border-top: 15px solid #7827A9;
+  width: 205px;
+  z-index: 2;
+}
+
+.fu{
+  border-top: 15px solid #DE1C5C;
+}
+
+.pp{
+  border-top: 15px solid #FFAE00;
+}
+
+.tb1{
+  margin-top: -25px;
+  margin-bottom: 25px;
+  margin-left: -440px;
+  margin-right: 440px;
+  border-spacing: 0px 33px; /* Расстояние между ячейками */
+}
+
+.tb2{
+  margin-left: -850px;
+  margin-top: -21px;
+  border-spacing: 0px 33px; /* Расстояние между ячейками */ 
+  display: inline-block;
+}
+
+.tb3{
+  margin-right: 390px;
+  margin-left: -390px;
+  margin-top: -24px;
+  margin-bottom: 24px;
+  border-spacing: 0px 55px; /* Расстояние между ячейками */ 
+  display: inline-block;
+}
+
+.tb4{
+  border-spacing: 0px 33px;
+  margin-right: 450px;
+  margin-left: -450px;
+  margin-top: -20px;
+  display: inline-block;
+}
+
+.tb3 p{
+  font: 9pt Roboto, sans-serif;
+}
+
+.tb4 p{
+  color: #ffffff;
+  font: 8pt Roboto, sans-serif;
+  opacity: 0.8;
+  display: inline-block;
+  width: 200px;
+  line-height: 2
+}
+
+
+.h4_img{
+  margin-left: -428px;
+  margin-top: -360px;
+  margin-bottom: 360px;
+}
+
+.git_img1{
+  margin-left: -202px;
+  margin-right: 202px;
+  margin-bottom: 31px;
+}
+
+.git_img2{
+  margin-left: -223px;
+  margin-right: 15px;
+  margin-top: 125px;
+  margin-bottom: -125px;
+  width: 30%;
+}
+
+.fu_img1{
+  margin-right: 600px;
+  margin-left: -600px;
+  margin-bottom: 48px;
+  transform: scale(0.93)  
+}
+
+.wt{
+  color: #ffffff;
+}
+
+#get_in_touch p{
+  color: #85939F;
+  opacity: 0.8;
+}
+
+footer p{
+  color: #ffffff;
+  font-size: 0.47em;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 650px;
+  margin-bottom: -5px;
+  line-height: 1.7
+}
+
+footer cite{
+  color: #85939F;
+  font-size: 0.45em;
+  display: inline-block;
+  margin-right: -293px;
+  opacity: 0.8;
+}
+
+footer span{
+  color: #02BAAB;
+}
+
+.buy_last{
+  background-color: #1F2A32;
+  border: 2px solid #02BAAB;
+  padding: 12px;
+  padding-right: 30px;
+  font: 8pt Roboto, sans-serif;
+  font-weight: 100;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 1055px;
+  float: left;
+}
+
+.buy_last:hover{
+  background-color: #A30834;
+  border: 2px solid #02BAAB;  
+}
+
+#span_top{
+  float: right;
+  margin-right: -15px;
+  margin-top: -9px;
+  transform: scale(2);
+}
+
+#span_last{
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+#footer_logo {
+  float: left;
+  font-size: 24px;
+  text-align: right;
+  margin-top: -280px;
+  margin-left: -385px;
+}
+
+#footer_logo p {
+  line-height: 2;
+  opacity: 0.8;
+}
+
+
+
+ 
+
+
+
+	
